@@ -1,11 +1,11 @@
-package com.terfezio.di_parte1.Practica6;
+package com.terfezio.di_parte1;
 
 public class Configuration {
-    private Boolean png;
-    private Boolean jpg;
-    private Boolean gif;
-    private String path;
-    private double seconds;
+    public Boolean png;
+    public Boolean jpg;
+    public Boolean gif;
+    public String path;
+    public double seconds;
 
     public Configuration(Boolean png, Boolean jpg, Boolean gif, String path, float seconds) {
         this.png = png;

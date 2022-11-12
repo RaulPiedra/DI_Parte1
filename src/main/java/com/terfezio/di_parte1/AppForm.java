@@ -1,4 +1,4 @@
-package com.terfezio;
+package com.terfezio.di_parte1;
 
 import org.jdesktop.swingx.prompt.PromptSupport;
 

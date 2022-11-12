@@ -1,4 +1,4 @@
-package com.terfezio.di_parte1.Practica6;
+package com.terfezio.di_parte1;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

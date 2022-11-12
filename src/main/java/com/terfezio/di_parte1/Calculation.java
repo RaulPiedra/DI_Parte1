@@ -1,4 +1,4 @@
-package com.terfezio.di_parte1.Practica6;
+package com.terfezio.di_parte1;
 
 import org.mariuszgromada.math.mxparser.Expression;
 

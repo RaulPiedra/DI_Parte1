@@ -1,4 +1,4 @@
-package com.terfezio.cuborubik;
+package com.terfezio.di_parte1;
 
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

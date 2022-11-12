@@ -1,4 +1,4 @@
-package com.terfezio;
+package com.terfezio.di_parte1.modal;
 
 import javax.swing.*;
 import java.net.URL;

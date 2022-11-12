@@ -5,9 +5,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e9fc731-bc48-4b65-a385-dbb50df08845" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/terfezio/di_parte1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/terfezio/di_parte1/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1280px-Athene_noctua_(portrait).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/5co3rh70s1041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/BL3b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/BME280-Module-Setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/F414_Foto_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Kanal-Korinth-2011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Rayen_Castle_Kerman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/White-Wagtail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/a4b647e1d68b7e9dcfbcef7579afb79e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/euiyjpwai7v21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/idea (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in0chjz3e5031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lamp (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/luna-marzo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nq03dzk1ney21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/omxbb1fmgbn21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/wrf68a8i8mz21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ykusseumkbn21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/AppForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/AppForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Calculations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Calculator.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Calculator2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Calculator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Calculator2Help.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Calculator2Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/CalculatorHelp.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/CalculatorHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Config.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Fotos.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Fotos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/RubikController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Utilidades.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/Utilidades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal1.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal3.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal4.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal5.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/Modal5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/VistaPrincipal.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/modal/VistaPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/paisajes/AppPaisaje.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/paisajes/AppPaisaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/terfezio/di_parte1/paisajes/Paisaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/calculator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/terfezio/di_parte1/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/terfezio/di_parte1/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/terfezio/di_parte1/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/terfezio/di_parte1/rubik-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/terfezio/di_parte1/rubik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/terfezio/di_parte1/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/desiertos/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/desiertos/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/desiertos/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/desiertos/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/glaciares/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/glaciares/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/glaciares/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/glaciares/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/icono/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/montanas/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/montanas/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/montanas/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/montanas/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/rios/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/rios/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/rios/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/imagenes/rios/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/java2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/rubik-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tools-ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tools.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +115,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Gb9F1xsLsmdMt0i15FLZ0Kaj3G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,9 +128,26 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "447",
+    "last_opened_file_path": "C:/Users/raul/IdeaProjects/DI_Parte1/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raul\IdeaProjects\DI_Parte1\src\main\resources" />
+      <recent name="C:\Users\raul\IdeaProjects\DI_Parte1" />
+      <recent name="C:\Users\raul\IdeaProjects\DI_Parte1\src\main\java\com\terfezio\di_parte1\Practica6" />
+      <recent name="C:\Users\raul\IdeaProjects\DI_Parte1\src\main\java\com\terfezio\di_parte1" />
+      <recent name="C:\Users\raul\IdeaProjects\DI_Parte1\src\main\resources\com\terfezio\di_parte1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raul\IdeaProjects\DI_Parte1\src\main\java\com\terfezio\di_parte1\" />
+      <recent name="C:\Users\raul\IdeaProjects\DI_Parte1\src\main\java\com\terfezio\di_parte1\modal" />
+      <recent name="C:\Users\raul\IdeaProjects\DI_Parte1\src\main\java\com\terfezio\di_parte1\paisajes" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

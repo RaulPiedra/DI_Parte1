@@ -1,4 +1,4 @@
-package com.terfezio.cuborubik;
+package com.terfezio.di_parte1;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +14,7 @@ public class App extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("rubik-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 450, 450);
         stage.setTitle("Rubik");
-        stage.getIcons().add(new Image("file:src/main/resources/com/terfezio/cuborubik/rubik.png"));
+        stage.getIcons().add(new Image("file:src/main/resources/com/terfezio/di_parte1/rubik.png"));
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();

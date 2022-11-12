@@ -1,4 +1,4 @@
-package com.terfezio.di_parte1;
+package com.terfezio.di_parte1.paisajes;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;

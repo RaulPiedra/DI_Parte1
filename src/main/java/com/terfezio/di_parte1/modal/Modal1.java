@@ -1,7 +1,9 @@
-package com.terfezio;
+package com.terfezio.di_parte1.modal;
 
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class Modal1 extends JDialog {
     private JPanel contentPane;
