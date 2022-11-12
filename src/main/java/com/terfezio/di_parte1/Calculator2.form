@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.terfezio.di_parte1.Practica6.Calculator2">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="530" height="563"/>
+    </constraints>
+    <properties>
+      <background color="-2106137"/>
+      <maximumSize width="370" height="513"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1b6da" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Expresión:"/>
+        </properties>
+      </component>
+      <component id="d016" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <toolTipText value="Introduzca una expresión usando los botones o el teclado"/>
+        </properties>
+      </component>
+      <component id="aa267" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Resultado:"/>
+        </properties>
+      </component>
+      <component id="a0fcb" class="javax.swing.JTextField" binding="textFieldBinary">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1317"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <toolTipText value="Aquí aparecerá el resultado una vez pulsado el botón = en base 2"/>
+        </properties>
+      </component>
+      <grid id="4b34" binding="jPanelButtons" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2106137"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="cc771">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="21bf0" class="javax.swing.JButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="8"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="387af" class="javax.swing.JButton">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="5"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="d4598" class="javax.swing.JButton">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="2"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="37916" class="javax.swing.JButton">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="0"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="541ce" class="javax.swing.JButton">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="."/>
+              <text value=","/>
+            </properties>
+          </component>
+          <component id="8e644" class="javax.swing.JButton" binding="jButtonEq">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="equal"/>
+              <background color="-5451319"/>
+              <name value="equals"/>
+              <text value="="/>
+            </properties>
+          </component>
+          <component id="4e3bd" class="javax.swing.JButton" binding="jButtonPlus">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5451319"/>
+              <name value="+"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="5aa07" class="javax.swing.JButton">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5451319"/>
+              <name value="-"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="3c356" class="javax.swing.JButton" binding="jButtonX">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5451319"/>
+              <name value="*"/>
+              <text value="x"/>
+            </properties>
+          </component>
+          <component id="3ea9b" class="javax.swing.JButton">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5451319"/>
+              <name value="/"/>
+              <text value="/"/>
+            </properties>
+          </component>
+          <component id="95726" class="javax.swing.JButton">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="ac"/>
+              <background color="-2379958"/>
+              <name value="ac"/>
+              <text value="AC"/>
+            </properties>
+          </component>
+          <component id="34790" class="javax.swing.JButton" binding="jButtonClear">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="cl"/>
+              <background color="-2379958"/>
+              <name value="c"/>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="2e372" class="javax.swing.JButton" binding="jButtonRightParenthesis">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5451319"/>
+              <label value=")"/>
+              <name value=")"/>
+              <text value=")"/>
+            </properties>
+          </component>
+          <component id="255b" class="javax.swing.JButton" binding="jButtonleftParenthesis">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5451319"/>
+              <label value="("/>
+              <name value="("/>
+              <text value="("/>
+            </properties>
+          </component>
+          <component id="d464b" class="javax.swing.JButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <enabled value="false"/>
+              <name value="E"/>
+              <text value="E"/>
+            </properties>
+          </component>
+          <component id="8238f" class="javax.swing.JButton">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <enabled value="false"/>
+              <name value="F"/>
+              <text value="F"/>
+            </properties>
+          </component>
+          <component id="539e9" class="javax.swing.JButton">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="up"/>
+              <name value="up"/>
+              <text value="⇑"/>
+            </properties>
+          </component>
+          <component id="347e0" class="javax.swing.JButton">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="down"/>
+              <name value="down"/>
+              <text value="⇓"/>
+            </properties>
+          </component>
+          <component id="25186" class="javax.swing.JButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <enabled value="false"/>
+              <name value="A"/>
+              <text value="A"/>
+            </properties>
+          </component>
+          <component id="c4ca0" class="javax.swing.JButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <enabled value="false"/>
+              <name value="B"/>
+              <text value="B"/>
+            </properties>
+          </component>
+          <component id="cd60e" class="javax.swing.JButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <enabled value="false"/>
+              <name value="C"/>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="3eecd" class="javax.swing.JButton">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <enabled value="false"/>
+              <name value="D"/>
+              <text value="D"/>
+            </properties>
+          </component>
+          <component id="c1a13" class="javax.swing.JButton">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="3"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="e487e" class="javax.swing.JButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="1"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="57ce4" class="javax.swing.JButton">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="6"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="e8816" class="javax.swing.JButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="4"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="d87e6" class="javax.swing.JButton">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="9"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="32a2a" class="javax.swing.JButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6769712"/>
+              <font style="1"/>
+              <name value="7"/>
+              <text value="7"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="12543" class="javax.swing.JTextField" binding="textFieldOctal">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1317"/>
+          <editable value="false"/>
+          <toolTipText value="Aquí aparecerá el resultado una vez pulsado el botón = en base 8"/>
+        </properties>
+      </component>
+      <component id="39498" class="javax.swing.JTextField" binding="textFieldDecimal">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1317"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <toolTipText value="Aquí aparecerá el resultado una vez pulsado el botón = en base 10"/>
+        </properties>
+      </component>
+      <component id="a8dca" class="javax.swing.JTextField" binding="textFieldHexadecimal">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1317"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <toolTipText value="Aquí aparecerá el resultado una vez pulsado el botón = en base 16"/>
+        </properties>
+      </component>
+      <component id="2fb07" class="javax.swing.JRadioButton" binding="hexadecimalRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="hexadecimal"/>
+          <background color="-2106137"/>
+          <text value="&amp;Hexadecimal"/>
+        </properties>
+      </component>
+      <component id="cd6df" class="javax.swing.JRadioButton" binding="decimalRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="decimal"/>
+          <background color="-2106137"/>
+          <text value="&amp;Decimal"/>
+        </properties>
+      </component>
+      <component id="5da16" class="javax.swing.JRadioButton" binding="octalRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="octal"/>
+          <background color="-2106137"/>
+          <text value="&amp;Octal"/>
+        </properties>
+      </component>
+      <component id="f263" class="javax.swing.JRadioButton" binding="binarioRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="binario"/>
+          <background color="-2106137"/>
+          <text value="&amp;Binario"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="">
+      <member id="f263"/>
+      <member id="5da16"/>
+      <member id="2fb07"/>
+      <member id="cd6df"/>
+    </group>
+  </buttonGroups>
+</form>

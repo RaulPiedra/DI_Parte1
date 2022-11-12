@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.terfezio.di_parte1.Practica6.Calculator2Help">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="701" height="466"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-raised"/>
+    <children>
+      <component id="f07c1" class="javax.swing.JLabel" binding="jLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;html&gt;&lt;h1&gt;Ayuda de Calculadora&lt;/h1&gt; &lt;p&gt;La calculadora acepta expresiones algebraicas del tipo &quot;(3+2)2&quot;.&lt;/p&gt;&#10;&lt;p&gt;Las operaciones soportadas son la suma (&quot;+&quot;), la resta (&quot;-&quot;) y la multiplicación (&quot;*&quot;)&lt;/p&gt;&#10;&lt;p&gt;Solo se realizan operaciones con enteros&lt;/p&gt;&#10;&lt;p&gt;El resultado de cualquier operación se calculará en las cuatro bases a la vez.&lt;/p&gt;&#10;&lt;p&gt;El espacio de texto etiquetado &quot;Expresión&quot; mostrará la expresión algebraica introducida.&lt;/p&gt;&#10;&lt;p&gt;Si se pulsa el botón &quot;=&quot; o la tecla enter, aparecerá el resultado o un &#10;mensaje de error.&lt;/p&gt;&#10;&lt;p&gt;El botón &quot;C&quot; borra un caracter hacia la izquierda, su atajo de teclado es &#10;la tecla &quot;BACKSPACE&quot;&lt;/p&gt;&#10;&lt;p&gt;El botón &quot;AC&quot; borrará todo lo que haya en la entrada de expresión y en resultado,&#10;su atajo de teclado es &quot;SHIFT + BACKSPACE&quot;.&lt;/p&gt;&#10;&lt;p&gt;Los botones flecha arriba y flecha abajo van mostrando la historia de resultados&lt;/p&gt;&#10;&lt;p&gt;Se pueden usar los botones de la calculadora pulsados mediante el ratón o por atajos de teclado.&lt;/p&gt;&#10;&lt;p&gt;Funcionan los atajos de teclado del numpad&lt;/p&gt;&lt;/html&gt;"/>
+          <toolTipText value="Haga click en cualquier parte para cerrar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
